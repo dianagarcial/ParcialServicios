@@ -1,0 +1,13 @@
+$ORIGIN nuevoservicios.com.
+$TTL 84600
+@ IN SOA server.nuevoservicios.com. root@nuevoservicios.com. (
+123312 ; serial
+1h ; refresh
+2h ; retry
+1w ; expire
+1h) ; min cache
+@ IN NS server.nuevoservicios.com.
+; hosts en la zona
+server IN A 192.168.50.8
+www IN CNAME server
+
